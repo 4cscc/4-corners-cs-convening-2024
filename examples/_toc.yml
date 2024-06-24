@@ -1,9 +1,20 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
+
+
 format: jb-book
 root: intro
 parts:
   - caption: Kitronik Inventor's Kit
     chapters:
     - file: example-00-blink-one-led
+    - file: example-01-rgb-led-colors
+  - caption: Kitronik Air Quality and Environmental Board
+    chapters:
+    - file: example-02-aqb-oled
+    - file: example-03-aqb-temperature
+    - file: example-04-aqb-humidity
+    - file: example-05-aqb-pressure
+    - file: example-06-aqb-aqi
+    - file: example-07-aqb-all
